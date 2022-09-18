@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F2F1F6"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="@font/bold"
+            android:text="Good Evening, Catalyst"
+            android:layout_weight="1"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="#D9D9D9"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_home_hospital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bold"
+        android:text="Hospital Name"
+        android:textColor="#7C7C7C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/sm_bold"
+        android:text="Manage"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_round_bg">
+        <LinearLayout
+            android:id="@+id/btn_bed_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="15dp"
+            android:drawableLeft="@drawable/ic_bed"
+            android:drawablePadding="10dp"
+            android:drawableTint="#F94A05"
+            android:fontFamily="@font/medium"
+            android:paddingTop="15dp"
+            android:text="Beds"
+            android:layout_weight="1"
+            android:textSize="18sp" />
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="#C0C0C0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EAEAEA"/>
+
+        <LinearLayout
+            android:id="@+id/btn_essentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_syringe"
+                android:drawablePadding="10dp"
+                android:drawableTint="#A650DA"
+                android:fontFamily="@font/medium"
+                android:paddingTop="15dp"
+                android:text="Essentials"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="#C0C0C0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EAEAEA"/>
+
+        <LinearLayout
+            android:id="@+id/btn_records"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_contacts"
+                android:drawablePadding="10dp"
+                android:drawableTint="#1075E7"
+                android:fontFamily="@font/medium"
+                android:paddingTop="15dp"
+                android:text="Records"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="#C0C0C0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EAEAEA"/>
+
+        <LinearLayout
+            android:id="@+id/btn_appointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_file"
+                android:drawablePadding="10dp"
+                android:drawableTint="#24C1AE"
+                android:fontFamily="@font/medium"
+                android:paddingTop="15dp"
+                android:text="Appointments"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="#C0C0C0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EAEAEA"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_device"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FB960A"
+                android:fontFamily="@font/medium"
+                android:paddingTop="15dp"
+                android:text="Manage Swaystya Modules"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="#C0C0C0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EAEAEA"/>
+        <LinearLayout
+            android:id="@+id/btn_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_demo"
+                android:drawablePadding="10dp"
+                android:drawableTint="#00AC92"
+                android:fontFamily="@font/medium"
+                android:paddingTop="15dp"
+                android:text="Demo Mode"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="#C0C0C0" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/sm_bold"
+        android:text="Alerts"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_round_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Alerts ✅"
+            android:textAlignment="center"
+            android:fontFamily="@font/sm_bold"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

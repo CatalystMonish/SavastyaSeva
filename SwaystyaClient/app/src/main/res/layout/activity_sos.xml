@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#F94A05"
+    tools:context=".SOS">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <com.example.swipebutton_library.SwipeButton
+        android:id="@+id/btn_swipe"
+        android:background="@drawable/white_round_bg_sos"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        app:button_background_padding="12dp"
+        app:button_background_src="@drawable/ic_arrow_right_white"
+        app:button_height="70dp"
+        app:button_width="70dp"
+        app:has_active_status="true"
+        app:has_finish_animation="true"
+        app:inner_text_gravity="end"
+        android:layout_marginBottom="40dp"
+        app:inner_text_padding="8dp"
+        app:outer_background_drawable="@drawable/white_round_bg_sos"
+        app:button_background_drawable="@drawable/white_round_bg_sos"
+        app:inner_text_size="12sp"
+        app:inner_text_color="#F3F3F3"
+        app:outer_background_height="80dp"
+        app:outer_background_tint="#F3F3F3"
+        app:trail_background_tint="#4CAF50"
+        app:trail_enabled="true" />
+
+
+
+</LinearLayout>

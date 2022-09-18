@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SelectActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bold"
+            android:text="Welcome to Svastya Seva"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_gravity="center"
+            android:layout_height="400dp"
+            android:src="@drawable/hospital"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/bold"
+            android:textSize="15sp"
+            android:text="Select Hospital to Continue"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="@color/os_bg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/white_round_bg">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_select"
+            android:fontFamily="@font/sm_bold"
+            android:layout_margin="2dp"
+            android:textSize="17sp"
+            android:backgroundTint="@color/os_bg"
+            android:background="@drawable/white_round_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login_hospital"
+            android:shadowColor="@color/light_blue_600"
+            android:outlineAmbientShadowColor="@color/os_bg"
+            android:outlineSpotShadowColor="@color/os_bg"
+            android:backgroundTint="#D9D9D9"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:background="@drawable/white_round_bg"
+            android:layout_gravity="center"
+            android:text="Login as Lotus"
+            android:textAllCaps="false"
+            android:fontFamily="@font/bold"
+            android:textSize="18sp"
+            android:layout_height="55dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

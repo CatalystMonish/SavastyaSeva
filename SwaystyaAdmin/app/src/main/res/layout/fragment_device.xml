@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/os_bg"
+    tools:context=".fragments.DeviceFragment">
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Patient"
+            android:textSize="25sp"
+            android:fontFamily="@font/bold"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_patient_add"/>
+
+
+
+        <TextView
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:textColor="#505050"
+            android:layout_height="wrap_content"
+            android:text="Scan a new Swaystya Band to continue!"
+            android:textSize="18sp"
+            android:fontFamily="@font/bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_start_scan"
+            android:shadowColor="@color/os_bg"
+            android:outlineAmbientShadowColor="@color/os_bg"
+            android:outlineSpotShadowColor="@color/os_bg"
+            android:backgroundTint="#D9D9D9"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:background="@drawable/white_round_bg"
+            android:layout_gravity="center"
+            android:text="Begin Scanning"
+            android:textAllCaps="false"
+            android:fontFamily="@font/bold"
+            android:textSize="18sp"
+            android:layout_height="55dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

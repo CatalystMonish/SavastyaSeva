@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "565865735826",
+    "firebase_url": "https://swaystya-default-rtdb.firebaseio.com",
+    "project_id": "swaystya",
+    "storage_bucket": "swaystya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565865735826:android:5dea317ea1449a579fe84b",
+        "android_client_info": {
+          "package_name": "com.catalystmedia.swaystyaadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565865735826-idlo4ibr9offgs3ji8er7kd62bcv0uch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU1_6yhcvhYW21cTjGXLT_atxviU6uHSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565865735826-idlo4ibr9offgs3ji8er7kd62bcv0uch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

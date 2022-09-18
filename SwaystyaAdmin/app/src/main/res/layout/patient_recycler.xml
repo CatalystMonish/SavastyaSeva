@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/white_round_bg"
+    android:backgroundTint="@color/white"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_pfp"
+        android:padding="6dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="#B3B3B3"/>
+
+
+<!--    Name Linear Layout-->
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:lines="1"
+            android:id="@+id/tv_patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/sm_bold"
+            android:text="Patient Name"/>
+
+            <TextView
+                android:lines="1"
+                android:id="@+id/tv_gender"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#5C5C5C"
+                android:fontFamily="@font/sm_bold"
+                android:text="M"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#555555"
+                android:fontFamily="@font/sm_bold"
+                android:text=""/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:lines="1"
+            android:id="@+id/tv_contact"
+            android:textColor="#515151"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="@font/sm_bold"
+            android:text="contact"/>
+
+        <TextView
+            android:lines="1"
+            android:id="@+id/tv_email"
+            android:textColor="#515151"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="@font/sm_bold"
+            android:text="email"/>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:visibility="gone"
+        android:id="@+id/btn_discharge"
+        android:layout_width="wrap_content"
+        android:background="@drawable/white_round_bg"
+        android:backgroundTint="#C51509"
+        android:text="Discharge"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/sm_bold"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
